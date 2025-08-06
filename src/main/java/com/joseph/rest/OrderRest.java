@@ -1,4 +1,4 @@
-package com.joseph.resource;
+package com.joseph.rest;
 
 import com.joseph.mapper.OrderApprovalMapper;
 import com.joseph.mapper.OrderCreationMapper;
@@ -24,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 @ApplicationScoped
 @Path("/orders")
 @Produces(MediaType.APPLICATION_JSON)
-public class OrderResource {
+public class OrderRest {
 
     @Inject
     OrderService orderService;
